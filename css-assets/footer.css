@@ -1,0 +1,112 @@
+:root {
+    --color-dark-bg: #2d2c2d;    
+    --color-highlight: #4bc76c;      
+    --color-white: #ffffff;      
+    --color-light-bg: #f7f7f7;      
+    --color-text-black: #1c1c1c;    
+    --color-muted-text: #7d7d7d;     
+}
+
+.footer {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    font-family: "Poppins", helvetica;
+    gap: 3em;
+    background-color: var(--color-dark-bg);
+}
+
+.container-4-1 {
+    justify-content: center;
+    display: flex;
+    gap: 3em;
+}
+
+.container-4-1 h1 {
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.container-4-1 h1 span {
+    color: var(--color-highlight);
+}
+
+.container-4-1 h2 {
+    width: 50%;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.container-4-2 {
+    background-color: var(--color-light-bg);
+    box-shadow: 5px 5px var(--color-highlight);
+    border-radius: 10px;
+    color: var(--color-highlight);
+    width: 60%;
+    padding: 15px;
+}
+
+.container-4-2 h4{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.container-4-2 li, .container-4-2 a {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--color-text-black);
+}
+
+.container-4-2 ul {
+    justify-content: center;
+    display: flex;
+    gap: 1em;
+    font-size: 1em;
+    flex-direction: row;
+}
+
+.footer-navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: var(--color-dark-bg);
+    font-family: "Poppins", Helvetica;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-navbar-text {
+    text-align: center;
+    color: var(--color-highlight);
+}
+
+.footer-navbar-text span {
+    color: var(--color-white);
+    font-size: 0.8em;
+}
+
+.footer-nav-items {
+    width: 70%;
+    height: 70%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+    border: 1px solid var(--color-highlight);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px var(--color-highlight);
+}
+
+.footer-nav-items a, .footer-nav-items ul, .footer-nav-items li{
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--color-white);
+    font-weight: 500;
+}

@@ -1,0 +1,146 @@
+:root {
+    --color-dark-bg: #2d2c2d;    
+    --color-highlight: #4bc76c;      
+    --color-white: #ffffff;      
+    --color-light-bg: #f7f7f7;      
+    --color-text-black: #1c1c1c;    
+    --color-muted-text: #7d7d7d;     
+}
+
+.page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4%;
+    align-items: center;
+    z-index: 1;
+    background-color: var(--color-dark-bg);
+}
+
+.page2 h1{
+    font-family: "Poppins", Helvetica;
+    color: #f7f7f7;
+}
+
+.container-2-1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: var(--color-light-bg);
+}
+
+.container-2--1 {
+    width: 40%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.twobytwo {
+    width: 300px;
+    height: 300px;
+}
+
+.myID {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 50px 0px 50px;
+    box-shadow: 5px 5px var(--color-highlight);
+}
+
+.container-2--2 {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    padding: 1px;
+    font-family: "Poppins", Helvetica;
+}
+
+.container-2--2-1 {
+    width:50%;
+}
+
+.container-2--2-1 ul li {
+    list-style-type: none;
+    padding: 10px;
+    color: var(--color-highlight);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.container-2--2-1 ul li p {
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container-2--2-2 {
+    width: 50%;
+}
+
+.container-2--2-2 ul li {
+    list-style-type:none;
+    padding: 10px;
+    color: var(--color-highlight);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.container-2--2-2 ul li p {
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+ul.name-age-birthdate {
+    padding: 0;
+}
+
+ul.phone-email-address {
+    padding: 0;
+}
+
+.container-2-2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    color: var(--color-light-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description {
+    font-size: 1em;
+    font-family: "Poppins", Helvetica;
+    text-align: center;
+    margin: 10px;
+    width: 70%;
+}
+
+.learn-more-button-for-page-2 {
+    align-items: center;
+}
+
+.learn-more-button-for-page-2 a {
+    text-decoration: none;
+    color: var(--color-text-black);
+    font-size: 1.2em;
+}
+
+.button-on-second {
+    background-color: var(--color-highlight);
+    border: 1px var(--color-dark-bg) solid;
+    padding: 7px;
+    transition: all 0.5s ease-in;
+    border-radius: 5px;
+}
+
+.button-on-second:hover {
+    background-color: var(--color-light-bg);
+}

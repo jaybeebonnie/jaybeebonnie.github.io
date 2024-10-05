@@ -1,0 +1,132 @@
+@media screen and (max-width: 1200px) {
+    .page2 h1 {
+        font-size: 2em;
+    }
+
+    .twobytwo {
+        width: 250px;
+        height: 250px;
+    }
+
+    .myID {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .container-2--2-1 ul li {
+        font-size: 0.9em;
+    }
+
+    .container-2--2-1 ul li p {
+        font-size: 0.9em;
+    }
+
+    .container-2--2-2 ul li {
+        font-size: 0.9em;
+    }
+
+    .container-2--2-2 ul li p {
+        font-size: 0.9em;
+        width: 120%;
+    }
+
+    .description {
+        font-size: 0.8em;
+    }
+
+    .learn-more-button-for-page-2 a {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .page2 {
+        flex-wrap: wrap;
+    }
+
+    div.description {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .page2 {
+        flex-wrap: wrap ;
+        padding: 0;
+    }
+
+    .container-2-1{
+        height: 40%;
+    }
+
+    .container-2--1 {
+        margin-right: 5%;
+        width: 30%;
+    }
+
+    .container-2--2 {
+        width: 55%;
+    }
+
+    .container-2--2-2 ul li p {
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+    .twobytwo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .myID {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        height: 140vh;
+    }
+
+    .page2 h1 {
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-2-1 {
+        order: 2;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-2--1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-2--2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .container-2--2-1 ul li p {
+        width: 100%;
+    }
+
+    .container-2-2 {
+        order: 3;
+        flex-direction: column;
+        width: 100%;
+    }
+}

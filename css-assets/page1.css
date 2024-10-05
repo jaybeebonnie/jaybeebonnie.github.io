@@ -1,0 +1,114 @@
+:root {
+    --color-dark-bg: #2d2c2d;    
+    --color-highlight: #4bc76c;      
+    --color-white: #ffffff;      
+    --color-light-bg: #f7f7f7;      
+    --color-text-black: #1c1c1c;    
+    --color-muted-text: #7d7d7d;     
+}
+
+.page1 {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    z-index: 2;
+    background-color: var(--color-light-bg);
+}
+
+.section {
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.container1 {
+    z-index: 10;
+    height: 60%;
+    order: 1;
+    width:30%;
+    color: var(--color-text-black);
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    font-family: "Poppins", Helvetica;
+}
+
+.container1 h1 {
+    font-size: 5em;
+    line-height: 100%;
+}
+
+.container1 h1 span {
+    color: var(--color-highlight);
+}
+
+.container1 h3 {
+    font-size: 1.5em;
+}
+
+.container1 h6 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.container1 hr {
+    border-color: var(--color-highlight);
+}
+
+.container1 p {
+    margin-bottom: 10px;
+}
+
+button.button-contact {
+    border: var(--color-text-black) 1px solid;
+    border-radius: 5px;
+    padding: 1px;
+    width: 50%;
+    height: 10%;
+    background-color: var(--color-highlight);
+}
+
+.button-contact {
+    transition: all 0.5 ease-in-out 0s;
+}
+
+.button-contact a {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: var(--color-text-black);
+    border-radius: 2px;
+    font-size: 1.2em;
+    transition: all 0.5 ease-in-out 0s;
+}
+
+.button-contact:hover {
+    background-color: var(--color-muted-text);
+}
+
+.container2 {
+    height: 80%;
+    order: 1;
+    padding: 10px;
+    width: 30%;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-page1-container {
+    background-color: #4bc76c;
+    position: relative;
+    box-shadow: 6px 6px var(--color-highlight);
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

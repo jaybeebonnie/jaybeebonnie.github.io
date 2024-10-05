@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--Scripts-->
+    <script src="https://kit.fontawesome.com/b4801946cb.js" crossorigin="anonymous"></script>
+    <script src="assets/index.js"></script>
+
+    <!--Links-->
+    <link rel="icon" href="assets/JB.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--CSS Links-->
+    <link rel="stylesheet" href="css-assets/style.css">
+    <link rel="stylesheet" href="css-assets/page1.css">
+    <link rel="stylesheet" href="css-assets/page2.css">
+    <link rel="stylesheet" href="css-assets/page3.css">
+    <link rel="stylesheet" href="css-assets/footer.css">
+
+    <!--Media Queries per px-->
+    <link rel="stylesheet" href="css-assets/media-query-navbar.css">
+    <link rel="stylesheet" href="css-assets/media-query-journey.css"> 
+    <link rel="stylesheet" href="css-assets/media-query-home.css">
+    <link rel="stylesheet" href="css-assets/media-query-about.css">
+    <link rel="stylesheet" href="css-assets/media-query-contact.css">
+</head>
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <h1 class="logo">Jaybee</h1>
+        <ul class="menu">
+            <li><a href="#home" class="item" aria-label="home">Home</a></li>
+            <li><a href="#about" class="item">About</a></li>
+            <li><a href="#journey" class="item">My Journey</a></li>
+            <li><a href="#contact" class="item">Contact</a></li>
+            <!--Hamburger menu for resized screens-->
+            <li><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#home">Home</a>
+                  <a href="#about">About</a>
+                  <a href="#journey">My Journey</a>
+                  <a href="#contact">Contact</a>
+                </div>
+              </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Home Page-->
+
+    <main class="page1 section" id="home" >
+        <section class="container1">
+            <h3>Hola!</h3>
+            <h1>I'm Christ<span>ian</span></h1>
+            <h6>Information Technology Student</h6>
+            <hr>
+            <p>This webpage is curated to showcase the HTML, CSS, and JavaScript skills I learned from the course "Web Systems and Technologies."</p>
+            <a href="#contact" class="contactmeanchor"><button class="button-contact">Contact Me <i class="fa-solid fa-up-right-from-square"></i></button></a>
+        </section>
+
+        <section class="container2">
+            <div class="image-page1-container">
+                <img class="profile" src="assets/1723561874125.jpg">
+            </div>
+        </section>
+    </main>
+
+    <!--Page dedicated to General Information about me-->
+
+    <main class="page2 section" id="about">
+        <h1>About Me</h1>
+        <section class="container-2-1">
+            <div class="container-2--1">
+                <div class="twobytwo">
+                    <img class="myID" src="assets/bon2by2.jfif" alt="Bon's 2x2 ID">
+                </div>
+            </div>
+        
+            <div class="container-2--2">
+                <div class="container-2--2-1">
+                    <ul class="name-age-birthdate">
+                        <li>Name:
+                            <p>Jon Bon Christian Tanio-an</p>
+                        </li>
+                        <li>Age:
+                            <p>18 years old</p>
+                        </li>
+                        <li>Birthdate:
+                            <p>December 27, 2005</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-2--2-2">
+                    <ul class="phone-email-address">
+                        <li>Phone Number:
+                            <p>0967-152-7287</p>
+                        </li>
+                        <li>Email:
+                            <p>jonbonchristian.tanio-an@nmsc.edu.ph</p>
+                        </li>
+                        <li>Address:
+                            <p>Barangay Rizal, Molave, Zamboanga del Sur</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-2-2">
+            <div class="description">
+                I'm an 18-year-old boy from Molave, Zamboanga del Sur, currently pursuing a Bachelor of Science in Information Technology (BSIT). Besides my love for technology, I'm passionate about dancing and enjoy watching Dharmann videos and stories in my free time. I'm also a big fan of films, movies, and anime.
+                To learn more about me, click the button below.
+            </div>
+            <!--Button that leads to a much detailed information about myself-->
+            <div class="learn-more-button-for-page-2">
+                <a href="learn-more.html"><button class="button-on-second">Learn More <i class="fa-solid fa-up-right-from-square"></i></button></a>
+            </div>
+        </section>
+    </main>
+
+    <!--Page dedicated to my Journey as a student-->
+
+    <main class="page3 section" id="journey">
+        <section class="container-3-1">
+            <div class="journey-image-container">
+                <img class="journey-image" src="assets/Messenger_creation_E6DA8416-C812-48A7-BA7E-6A3977EEBF62.jpeg">
+            </div>
+            <div class="journey-text-container">
+                <p class="name-journey">Jon Bon Christian Tanio-an</p>
+                <p>Student</p>
+                <div class="socials-container">
+                    <a href="https://www.facebook.com/jonbon.tanioan"><img src="icon-assets/facebook.png" alt="facebook" class="social-icons"></a>
+                    <a href="https://www.instagram.com/bonlessmeat/"><img src="icon-assets/instagram.png" alt="instagram" class="social-icons"></a>
+                    <a href="https://x.com/defnotbon"><img src="icon-assets/twitter.png" alt="" class="social-icons"></a>
+                </div>
+            </div> 
+            <div class="journey-additional-container">
+                <div class="journey-additional-container-entries first">
+                    <p><a href="mailto:jonbonchristian.tanio-an@nmsc.edu.ph?subject=Getting%20in%20touch%20with%20you.">Direct Mail <img src="icon-assets/envelope.png" alt="" class="direct-icon"></i></a></p>
+                </div>
+                <div class="journey-additional-container-entries second">
+                    <p><a href="tel:+639671527287">Direct Contact <img src="icon-assets/phone-call.png" alt="" class="direct-icon"></i></a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-3-2">
+            <div class="skills-container">
+                <!--class journey-label is for page naming purposes-->
+                <div class="journey-label">
+                    <p class="journey-text">Journey as a Student<hr></p>
+                </div>
+                <div class="skills-parent-container">
+                    <div class="introduction-to-skills">
+                        <span>Hi I'm Jon Bon Christian Tanio-an</span> <br>
+                        I am a Sophomore student of Northwestern Mindanao State College. I graduated high-school with flying colors, and I graduated Elementary school with Valedictory awards. I excel at academics and Mathematics is my forte.
+                    </div>
+                    <div class="skill-progress">
+                        <div class="list-progress">
+                            <p>HTML:</p>
+                            <progress value="70" max="100"></progress>
+                        </div>
+                        <div class="list-progress">
+                            <p>CSS:</p>
+                            <progress value="52" max="100"></progress>
+                        </div>
+                        <div class="list-progress">
+                            <p>JavaScript:</p>
+                            <progress value="20" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tabs">
+                <div class="tab-swap-titles">
+                    <p class="tab-links active-link" onclick="openTab('academic-skills')">Academic Skills <i class="fa-solid fa-pen-nib"></i></p>
+                    <p class="tab-links" onclick="openTab('education')">Education <i class="fa-solid fa-book"></i></p>
+                    <p class="tab-links" onclick="openTab('student-experience')">Student Experience <i class="fa-solid fa-pen"></i></p>
+                </div>
+                <div class="tab-contents active-tab" id="academic-skills">
+                    <ul>
+                        <li><span>Active Listening</span><br>Able to understand lessons very well</li>
+                        <li><span>Analysis</span><br>Ability to analyze a problem</li>
+                        <li><span>Academic Writing</span><br>Experienced in writing academic paper</li>
+                        <li><span>Leadership</span><br>Always a go-to student for leadership roles in groupings.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Rizal Elementary School</span><br> 2009-2016<br>Valedictorian </li>
+                        <li><span>Molave Vocational Technical School</span><br>2016-2023<br> With Honors</li>
+                        <li><span>Northwestern Mindanao State College of Science and Technology</span><br>2023-Current</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="student-experience">
+                    <ul>
+                        <li><span>Class Officer</span><br>Always elected as classroom official during JHS and SHS.</li>
+                        <li><span>Academic Achiever</span><br>Always graduate with Honorary Awards</li>
+                        <li><span>Volunteering</span><br>Joined local initiatives that benefits the locale.</li>
+                        <li><span>Research Papers</span><br>Worked on multiple Research Papers (unpublished, academic).</li>                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Page dedicated for the footer and the footer-navbar-->
+
+    <footer class="footer" id="contact">
+        <section class="container-4-1">
+            <h1>get in <span>touch</span>!</h1>
+            <h2>thank you for visiting my portfolio! i'm always excited to connect with others, whether it's for collaboration, project inquiries, or simply a friendly chat. If you have any questions or would like to discuss opportunities, feel free to reach out to me.</h2>
+        </section>
+        <section class="container-4-2">
+            <h4>Contact me via</h4>
+            <ul>
+                <li><a href="mailto:jonbonchristian.tanio-an@nmsc.edu.ph?subject=Getting%20in%20touch%20with%20you."><i class="fa-solid fa-envelope"></i> jonbonchristian.tanio-an@nmsc.edu.ph</a></li>
+                <li><a href="tel:+639671527287"><i class="fa-solid fa-phone"></i> 0967 152 7287</a></li>
+                <li><a href="https://www.linkedin.com/in/jon-bon-christian-tanio-an-4b0128316/ "><i class="fa-brands fa-linkedin"></i> My LinkedIn Profile</a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <nav class="footer-navbar">
+        <ul class="footer-nav-items">
+            <p class="footer-navbar-text">Returning to a Page?<br><span>click to return >></span></p>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#journey">Journey</a></li>
+        </ul>
+    </nav>
+
+    
+</body>
+</html>

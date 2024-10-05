@@ -1,0 +1,291 @@
+@media screen and (max-width:1200px) {
+    .listing-of-information ul {
+        width: 200px;
+    }
+
+    .listing-of-information ul li {
+        font-size: 0.9em;
+    }
+
+    .listing-of-information ul li p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .containers-in-main-container h1.text-first-container {
+        font-size: 3.5em;
+    }
+
+    .containers-in-main-container h1.second-text {
+        font-size: 2em
+    }
+
+    .myID p {
+        font-size: 0.8em;
+    }
+
+    .myID {
+        width: 250px;
+        height: 250px;
+    }
+
+    .containers-for-favorites {
+        height: 80%;
+    }
+
+    .music-player .on-top-text {
+        font-size: 0.7em;
+    }
+
+    h3.song-title {
+        font-size: 0.9em;
+    }
+
+    p.artist-name {
+        font-size: 0.8em;
+    }
+
+    .music-controls button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    div.music-player {
+        width: 100%;
+    }
+
+    .progress-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        color: #b3b3b3;
+        font-size: 0.8em;
+    }
+
+    .album-art img {
+        width: 90%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .listing-of-information ul {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    h1.video-text {
+        font-size: 1em;
+    }
+     .fav-videos p {
+        font-size: 0.8em;
+     }
+}
+
+@media screen and (max-width:900px) {
+    .listing-of-information ul {
+        gap: 5px;
+        width: 180px;
+    }
+
+    .listing-of-information ul{
+        font-size: 0.8em;
+    }
+
+    .myID p {
+        font-size: 0.7em;
+    }
+
+    .myID {
+        width: 200px;
+        height: 200px;
+    }
+
+    .music-player p.on-top-text{
+        font-size: 0.6em;
+    }
+
+    .music-player .on-top-text:not(.second) {
+        color: var(--color-white);
+        font-size: 0.8em;
+        width: 110%;
+    }    
+
+    div.music-player {
+        width: 100%;
+    }
+
+    .album-art img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .current-time, .total-time {
+        width: 20px;
+        text-align: center;
+    }
+
+    .progress-bar {
+        display: flex;
+        align-items: center;
+        width: 50px;
+        font-size: 0.9em;
+    }
+    
+    .progress-range {
+        flex-grow: 1;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .image-page1-container {
+        position: relative;
+        box-shadow: 6px 6px var(--color-highlight);
+        width: 200px;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    .containers-in-main-container h1.text-first-container {
+        color: var(--color-text-black);
+        font-size: 4em;
+        text-align: right;
+    }
+
+    .containers-in-main-container h1.second-text {
+        font-size: 2.5em;
+        transition: all 0.3s ease-in 0s;
+        cursor: pointer;
+    }
+  
+  .containers-in-main-container h1.second-text:hover {
+        font-size: 3.2em;
+    } 
+  
+
+    .progress-range {
+        flex-grow: 1;
+        width: 90px;
+    }
+
+    .fav-songs {
+        height: 75%;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .page2, .page3 {
+        height:fit-content
+    }
+
+    .page2-main-container h1 {
+        font-size: 0.6em;
+    }
+
+    img.profile, h1.second-text, .image-page1-container {
+        display: none;
+        width: 0;
+    }
+
+    h1.text-first-container {
+        width: 100%;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containers-in-main-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .homepage-main-container {
+        display: block;
+    }
+
+    .page2-main-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page2-main-container h1 {
+        font-size: 1em;
+        height: 10%;
+        color: var(--color-white);
+   }
+
+    .listing-of-information {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .listing-of-information ul {
+        padding: 30px;
+        width: 80%;
+    }
+
+    .myID {
+        display: flex;
+        width: 50%;
+    }
+  
+    .myID img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        box-shadow: 6px 6px var(--color-highlight);
+    }
+
+    .myID p {
+        display: none;
+    }
+
+    .containers-for-favorites {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .fav-songs p.on-top-text.first {
+        width: 100%;
+    }
+
+    .fav-songs {
+        width: 60%;
+    }
+
+    .fav-videos {
+        width: 80%;
+    }
+
+    p.tab-links {
+        font-size: 0.6em;
+    }
+
+    .tab-contents ul li {
+        font-size: 0.6em;
+    }
+
+    .introduction-to-skills {
+        font-size: 0.7em;
+    }
+
+    p.journey-text {
+        font-size: 1.3em;
+    }
+}

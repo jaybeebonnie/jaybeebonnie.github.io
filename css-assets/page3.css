@@ -1,0 +1,252 @@
+:root {
+    --color-dark-bg: #2d2c2d;    
+    --color-highlight: #4bc76c;      
+    --color-white: #ffffff;      
+    --color-light-bg: #f7f7f7;      
+    --color-text-black: #1c1c1c;    
+    --color-muted-text: #7d7d7d;     
+}
+
+.page3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 4%;
+    align-items: center;
+    column-gap: 1em;
+    z-index: 3;
+    background-color: var(--color-highlight);
+}
+
+.container-3-1 {
+    width: 30%;
+    height: 90%;
+    background-color: var(--color-light-bg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0px 6px 3px var(--color-text-black);
+}
+
+.journey-image-container {
+    border-radius: 30px 30px 5px 5px;
+    background-color: var(--color-dark-bg);
+    width: 100%;
+    height: 70%;
+}
+
+.journey-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+    border-radius: 30px 30px 5px 5px;
+}
+
+.journey-text-container {
+    width: 100%;
+    height: 20%;
+    padding: 20px;
+    font-family: "Poppins", Helvetica;
+    text-align: center;
+}
+
+.journey-text-container p:not(.name-journey){
+    margin-bottom: 10px;
+}
+
+.name-journey {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.socials-container {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.socials-container img.social-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.journey-additional-container {
+    width: 100%;
+    height: 10%;
+    font-family: "Poppins", Helvetica;
+    display: flex;
+}
+
+.journey-additional-container-entries {
+    border-top: 1px var(--color-highlight) solid;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.journey-additional-container-entries:not(.first) {
+    border-left: 1px var(--color-highlight) solid;
+}
+
+.journey-additional-container-entries a {
+    text-decoration: none;
+    color: var(--color-text-black);
+}
+
+.journey-additional-container-entries img.direct-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.container-3-2 {
+    width: 50%;
+    height: 90%;
+    font-family: "Poppins", Helvetica;
+}
+
+.skills-container {
+    padding: 0;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.journey-label {
+    order: 1;
+    height: 25%;
+    width: 100%;
+    align-content: center;
+    justify-content: start;
+    padding: 0% 2%;
+}
+
+.journey-text {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.skills-parent-container {
+    display: flex;
+    order: 1;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+
+.introduction-to-skills {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 3%;
+    font-size: 0.9em;
+}
+
+.introduction-to-skills span {
+    font-weight: 600;
+}
+
+.skill-progress {
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    padding: 2%;
+    font-family: "Poppins", helvetica;
+}
+
+.list-progress {
+    align-content: center;
+}
+
+.list-progress p {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.list-progress progress {
+    height: 30px;
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background: var(--color-dark-bg);
+    border-radius: 3px;
+}
+
+progress::-webkit-progress-value {
+    background-color: var(--color-light-bg);
+}
+
+.tabs {
+    background-color: var(--color-light-bg);
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 6px 6px var(--color-text-black);
+}
+
+.tab-swap-titles {
+    display: flex;
+    font-family: "Poppins", Helvetica; 
+    align-items: center;
+    height: 10%;
+    padding-top: 10px;
+}
+
+.tab-links {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.05em;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: var(--color-text-black);
+    position: absolute;
+    left: 0;
+    top: 26px;
+    transition: 0.5s;
+}
+
+.tab-links.active-link::after{
+    width: 60%;
+}
+
+.tab-contents ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.tab-contents ul {
+    padding-left: 15px;
+}
+
+.tab-contents ul li span {
+    color: var(--color-highlight);
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    justify-items: center;
+}

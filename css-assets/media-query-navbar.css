@@ -1,0 +1,53 @@
+@media screen and (max-width:1200px) {
+    .navbar h1 {
+        font-size: 1.3em
+    }
+    
+    ul.menu li {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 1.5%;
+    }
+    
+    a.item {
+        display: none;
+    }
+
+    .dropbtn {
+        display: unset;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 2%;
+    }
+
+    a.item {
+        display: none;
+    }
+
+    .dropbtn {
+        display: unset;
+    }
+} 

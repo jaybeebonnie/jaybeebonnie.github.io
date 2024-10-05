@@ -165,12 +165,11 @@
   
   .containers-in-main-container h1.second-text:hover {
         font-size: 3.2em;
-    } 
+    }
   
-
     .progress-range {
         flex-grow: 1;
-        width: 90px;
+        width: 89px;
     }
 
     .fav-songs {
@@ -178,7 +177,7 @@
     }
 }
 
-@media screen and (max-width:426px) {
+@media screen and (max-width:500px) {
     .page2, .page3 {
         height:fit-content
     }
@@ -288,4 +287,25 @@
     p.journey-text {
         font-size: 1.3em;
     }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .progress-range {
+        flex-grow: 1;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .progress-range {
+        flex-grow: 1;
+        width: 95px;
+    }
+
+    .fav-songs {
+        width: 70%;
+    }
+    
 }
